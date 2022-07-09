@@ -1,0 +1,96 @@
+.container .places {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.container .places h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  flex-basis: 95%;
+}
+
+.container .places article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.container .places article h2 {
+  position: relative;
+  top: 12px;
+  width: 75%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container .places article .price_by_night {
+  min-width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  color: #ff5a5f;
+  border: 4px solid #ff5a5f;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.container .places article .information {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.container .places article .information .max_guest,
+.container .places article .information .number_rooms,
+.container .places article .information .number_bathrooms {
+  width: 100px;
+}
+
+.container .places article .information .max_guest .icon-guests {
+  background-image: url(../images/icon_group.png);
+}
+.container .places article .information .number_rooms .icon-rooms {
+  background-image: url(../images/icon_bed.png);
+}
+.container .places article .information .number_bathrooms .icon-bathrooms {
+  background-image: url(../images/icon_bath.png);
+}
+
+.container .places article .information .max_guest .icon-guests,
+.container .places article .information .number_rooms .icon-rooms,
+.container .places article .information .number_bathrooms .icon-bathrooms {
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 48px; */
+  height: 48px;
+  margin-top: 4px;
+}
+
+.container .places article .information .max_guest .guests-info,
+.container .places article .information .number_rooms .rooms-info,
+.container .places article .information .number_bathrooms .bathrooms-info {
+  text-align: center;
+}
+
+.container .places article .user {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.container .places article .user span {
+  font-weight: bold;
+}
